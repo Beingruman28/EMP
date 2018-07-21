@@ -1,6 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<body >
+	<link  href="bootstrap.css" rel="stylesheet" />
+
 	<table width="100%" height="100%" >
 	  <tr width="200" height="100" >
 	     <td colspan="2">
@@ -21,7 +23,7 @@ if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
-$result = mysqli_query($con,"SELECT * FROM employee WHERE name like "$EmpID" + "%");
+$sql = mysqli_query($con,"SELECT * FROM employee WHERE name = EmpID" + "%");
 echo "<table border='1'>
 <tr>
 <th>EmpID</th>
@@ -30,7 +32,7 @@ echo "<table border='1'>
 <th>Location</th>
 <th>Salary</th>
 </tr>";
-while($row = mysqli_fetch_array($result))
+while($row = mysqli_fetch_array($sql))
   {
   echo "<tr>";
   echo "<td>" . $row['EmpID'] . "</td>";

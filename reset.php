@@ -1,6 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <body>
+<link  href="bootstrap.css" rel="stylesheet" />
+
 <table width="300" border="2" align="center" >
 <tr>
 <form name="form1" method="post" action="relogin.php">

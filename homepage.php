@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <body>
+<link  href="bootstrap.css" rel="stylesheet" />
 <table width="500" border="2" align="center" cellpadding="0" cellspacing="1" 
 <tr>
   <h1><center>Employee Management</center></h1>

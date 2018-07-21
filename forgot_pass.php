@@ -4,6 +4,8 @@
 		<h3>Forgot Password</h3>
 	</head>
 <body>
+<link  href="bootstrap.css" rel="stylesheet" />
+
 <table width="300" >
 <tr>
 <form name="form1" method="post" action="retrieve.php">

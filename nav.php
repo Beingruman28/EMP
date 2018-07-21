@@ -1,6 +1,8 @@
-<table width="175"  cellpadding="0" cellspacing="0"  height="100%">
+<link  href="bootstrap.css" rel="stylesheet" />
+
+<table width="100%"  cellpadding="0" cellspacing="0"  height="100%" >
 	<tr>
-		<td  valign="top">
+		<td  halign="top">
 	<ul><li><a href="add.php"> <font size ="4">Add Employee</font></a> </li>
 	    <li><a href="details.php"><font size ="4">Employee Details</font></a></li>
 	    <li><a href="delete.php"><font size ="4">Delete Employee details</font></a></li>
